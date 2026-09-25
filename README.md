@@ -30,7 +30,7 @@ Registration/login routes validate inputs and use Werkzeug password hashing. Pro
 Requirements: Python 3.10+ and Git. SQLite is bundled with Python; PostgreSQL is optional.
 
 ```bash
-git clone https://github.com/<your-github-username>/fairplay-africa-api-task.git
+git clone https://github.com/SheunDiran/fairplay-africa-api-task.git
 cd fairplay-africa-api-task
 python -m venv .venv
 source .venv/bin/activate             # Windows: .venv\\Scripts\\activate
@@ -201,4 +201,4 @@ The suite exercises registration, duplicate and invalid input handling, password
 
 ## Submission/deployment status
 
-This repository contains a local, testable demonstration project. No live deployment or public repository is implied by this source tree. Deploy only after configuring secrets and a database on a hosting provider; no paid infrastructure is included or required for local evaluation.
+The source repository is public at https://github.com/SheunDiran/fairplay-africa-api-task. The API has been tested locally but has not been deployed to a live hosting provider. Deploy only after configuring secrets and a database on a hosting provider; no paid infrastructure is included or required for local evaluation.
